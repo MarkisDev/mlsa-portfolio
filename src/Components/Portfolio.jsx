@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "coding screen for portfolio";
 
 /**
  * Project list
@@ -31,28 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Vtu Results Extractor",
+    description: "Built an extractor tool coupled with a desktop based UI, powered by eel.js to help automate extraction and analysis of results from VTU website.",
+    url: "https://github.com/vtu-results-extractor"
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Destructo",
+    description: "Developed a Flutter app to help manage various files and folders in a creative way. It comes equipped with a great UI and a self-destruct option.",
+    url: "https://play.google.com/store/apps/details?id=com.markisdev.destructo"
+  },  
+  {
+    title: "Bucketlist",
+    description: "Bucketlist is an Android application to help you create your bucketlist with your friends in a WYSIWYG editor, all in realtime!",
+    url: "https://play.google.com/store/apps/details?id=com.markisdev.bucketlist"
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "PrivMsg",
+    description: "PrivMsg is a burner note service that is completely encrypted and allows you to share notes with your friends in a secure way. It also allows you to create E2E temporary chat rooms!",
+    url: "https://github.com/markisdev/privmsg"
   },
 ];
 
